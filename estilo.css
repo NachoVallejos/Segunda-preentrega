@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+/* ultra */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ultra&display=swap');
+/* bebas neue */
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+.body {
+    background-color: #F2D8C9;
+    
+
+}
+
+.barra {
+    font-family: 'Ultra', serif;
+    text-shadow: pink 5px solid ;
+    background-image: url(img/banner.jpg);
+    background-size: 100%;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #b8cdf8;
+    text-align: center;
+    text-shadow: 4px 3px #F2D8C9;
+    font-family: 'Bebas Neue', cursive;
+}
+  
+
+  footer ul li {
+    display: inline-block;
+    margin: 3rem;
+    padding:-3rem ;
+    text-shadow: 4px 3px #F2D8C9;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .footerLogo {
+    width: 200px;
+    /* animacion */
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+   animation-duration: 6s;
+    animation-delay: 6s;
+  }
+
+  @keyframes animacion {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+
+}
+
+/*--- INDEX - Inicio ---*/
+
+.titulo {
+    text-align: center;
+    text-shadow: #b8cdf8  3px 4px ;
+    color: black;
+    margin-top: 20px;
+   font-size: 60px;
+   font-family: "bebas neue", cursive;
+  }
+
+  .tituloInicio {
+    text-align: center;
+    text-shadow: #b8cdf8  3px 4px ;
+    color: black;
+    margin-top: 20px;
+   font-size: 40px;
+   font-family: "bebas neue", cursive;
+
+  }
+
+  /* transicion */
+  .frase {
+    color: black;
+    font-family: "bebas neue", cursive;
+    font-size: 40px;
+    text-align: center;
+    
+    background-image: url(img/banner.jpg);
+  }
+
+  .frase span {
+    transition: .5s linear;
+  }
+
+  .frase:hover span:nth-child(1) {
+    margin-right: 5px;
+    color: #F2D8C9;
+  }
+
+  .frase:hover span:nth-child(1):after {
+    content: "'";
+  }
+
+.frase:hover span:nth-child(2) {
+  color: #F2D8C9;
+}
+.frase:hover span:nth-child(3) {
+  color: aqua;
+}
+
+  .frase:hover span {
+    color: #b8cdf8;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff
+    0 0 40px #fff;
+  }
+
+  /* ------------------------------------ */
+
+
+
+
+section {
+    margin: 1rem;
+    padding: 0.5rem;
+    height: 50rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "bebas neue", cursive;
+    border: #b8cdf8 3px solid;
+    font-size: 1.2rem;
+    
+}
+
+.productoA {
+    font-size: 1.5rem;
+    background-color: #F59F9E;
+    margin: 3rem;
+    text-align: center;
+}
+
+.productoB {
+    font-size: 1.5rem;
+    background-color: #A0CED9;
+    border: 2px #F59F9E solid;
+    margin: 3rem;
+    text-align: center;
+}
+
+
+.productoC {
+    font-size: 1.5rem;
+    background-color: #F59F9E;
+    margin: 3rem;
+    text-align: center;
+}
+
+.imgCarousel {
+height: 420px;
+object-fit: cover;
+}
+
+.productoD {
+    font-size: 1.5rem;
+    background-color: #A0CED9;
+    border: 2px #F59F9E solid;
+    margin: 3rem;
+    text-align: center;
+
+}
+
+section img {
+    width: 50%;
+    border-radius: 4px;
+  }
+
+  .boton {
+    color: #1D9AF2;
+    background-color: #b8cdf8;
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 42px;
+    font-size:20px;
+    transition: all 0.2s ease-in-out;
+    margin-top: 10px;
+    }
+  
+    .boton:hover {
+    box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+    transform: translateX(-3px);
+    }
+
+
+/*--- Fin del index --- */
+
+/*--- INICIO - NOTICIAS --- */
+
+.tituloNoticias {
+    text-align: center;
+    text-shadow: #b8cdf8  3px 4px ;
+    color: black;
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: "bebas neue", cursive;
+  }
+
+  .tituloNoticiasDos {
+    text-align: center;
+    text-shadow:#b8cdf8 3px 4px;
+    color: black;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: "bebas neue", cursive;
+  }
+
+.noticiasA {
+    box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: #b8cdf8 4px solid;
+    font-size: 25px;
+ }
+
+ .noticiaImagen {
+    width: 50rem;
+    border: #a5beee 3px solid;
+    margin-bottom: 20px;
+ }
+
+.tituloNoticiasTres {
+ text-align: center;
+ text-shadow:#b8cdf8 3px 4px;
+ color: black;
+ margin-top: 20px;
+ font-size: 40px;
+ font-family: "bebas neue", cursive;
+}
+
+ .noticiasB {
+    box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 22px 14px -6px rgba(0,0,0,0.47);
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   border: #b8cdf8 4px solid;
+   font-size: 30px;
+ }
+
+
+ .noticiaImagenDos {
+    width: 50rem;
+    border: #a5beee 3px solid;
+    margin-bottom: 20px;
+ }
+
+ .container-lg {
+    margin-bottom: 50px;
+ }
+
+
+ /* FIN Noticias */
+
+
+ /* INICIO PRODUCTOS */
+ .card {
+   width: 70%;
+    background-color:#b8cdf8;
+    font-family: "bebas neue", cursive;
+    text-shadow: #F2D8C9 1px 1px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* FIN Productos*/
+
+/* Inicio Historia */
+
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.historiaTexto {
+    font-family: "bebas neue", cursive;
+}
+
+
+/* Fin Historia */
+
+
+/* INICIO CUIDADO DE LA ZAPATILLA */
+
+.cuidadoA {
+    background-color: #b8cdf8;
+    font-family: "bebas neue", cursive;
+    grid-area: cuidadoA;
+} 
+
+.cuidadoB {
+    background-color: #d8b8a6;
+    font-family: "bebas neue", cursive;
+    grid-area: cuidadoB;
+
+}
+.cuidadoC {
+    background-color: #a5beee;
+    font-family: "bebas neue", cursive;
+    grid-area: cuidadoC;
+}
+
+.videoUno {
+display: flex;
+justify-content: right;
+align-items: center;
+border: 2px #b8cdf8 solid;
+margin: 10px;
+background-image: url(img/local2.jpg);
+margin-top: 60px;
+}
+
+.videoDos {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    border: 2px #b8cdf8 solid;
+    margin: 10px;
+    background-image: url(img/local3.jpg);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
